@@ -20,45 +20,86 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-featured online shopping platform with user authentication, product catalog, and payment gateway integration.",
-    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-    category: "Web",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    demoLink: "#",
-    githubLink: "#"
+    title: "Casey AI – AI-Powered Test Automation Tool",
+    description: "An AI-based test automation tool that generates test cases from product descriptions and automates them using Selenium, Flask, and GitHub Actions.",
+    image: "/assets/Screenshot (828).png", // Replace with your screenshot
+    category: "AI",
+    tags: ["Python", "Flask", "Selenium", "GitHub Actions"],
+    demoLink: "https://caseyai-production.up.railway.app",
+    githubLink: "https://github.com/niyati34/CaseyAi"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A productivity app that helps users organize tasks, set deadlines, and track progress using drag and drop features.",
-    image: "https://images.unsplash.com/photo-1611224885990-ab7363d7f2a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-    category: "Mobile",
-    tags: ["React Native", "Redux", "Firebase"],
-    demoLink: "#",
-    githubLink: "#"
+    title: "Seasonal Plate Pal – Smart Diet Planning App",
+    description: "A full-stack web app that generates meal plans based on seasonal fruits and vegetables using user preferences and dietary goals.",
+    image: "/assets/Screenshot 2025-05-05 022237.png", // Replace with your screenshot
+    category: "Web",
+    tags: ["React", "Node.js", "Express.js", "MongoDB"],
+    demoLink: "https://seasonal-plate-pal.vercel.app",
+    githubLink: "https://github.com/niyati34/seasonal-plate-pal"
   },
   {
     id: 3,
-    title: "Portfolio Website",
-    description: "A modern portfolio website with smooth animations, dark/light mode, and responsive design.",
-    image: "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-    category: "UI/UX",
-    tags: ["React", "Tailwind CSS", "Framer Motion"],
-    demoLink: "#",
-    githubLink: "#"
+    title: "E-Commerce Platform – Adaa Jaipur (Best UI/UX Award)",
+    description: "A full-featured online shopping platform with product listings, cart, admin panel, and secure payment integration using MERN stack.",
+    image: "/assets/440128208-1842e9d6-6be0-44e7-ac79-6ee49811c2f4.png", // Replace with your screenshot
+    category: "Web",
+    tags: ["MongoDB", "Express.js", "React", "Node.js"],
+    demoLink: "https://dhairyafrontend.netlify.app",
+    githubLink: "https://github.com/niyati34/adaa-jaipur_client"
   },
   {
     id: 4,
-    title: "API Service",
-    description: "A RESTful API service for data management with authentication, rate limiting, and comprehensive documentation.",
-    image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-    category: "Backend",
-    tags: ["Node.js", "Express", "PostgreSQL", "Swagger"],
+    title: "Prevenzo – Road Safety & Hazard Detection App",
+    description: "An Android IoT app that detects road accidents and potholes, and notifies nearby users and authorities in real time.",
+    image: "/assets/440139254-28e87e60-9e79-4b5a-ba36-a254ab3c2056.png", // Replace with your screenshot
+    category: "Mobile",
+    tags: ["Java", "Android", "Firebase", "IoT"],
     demoLink: "#",
-    githubLink: "#"
+    githubLink: "https://github.com/niyati34/Prevenzo"
+  },
+  {
+    id: 5,
+    title: "Virtual Try-On System",
+    description: "A computer vision app that overlays virtual clothing on users using webcam input, OpenCV, and deep learning with MediaPipe.",
+    image: "/assets/440135484-206cec04-34b4-4ae4-9efb-d24c2788c510.png", // Replace with your screenshot
+    category: "AI",
+    tags: ["Python", "Flask", "OpenCV", "MediaPipe"],
+    demoLink: "#",
+    githubLink: "https://github.com/niyati34/virtual-dressing-room"
+  },
+  {
+    id: 6,
+    title: "Arthik – Barter Skill Exchange Platform",
+    description: "A MERN stack web app where users exchange skills instead of money, with real-time messaging and request handling features.",
+    image: "/assets/Screenshot 2025-05-05 022431.png", // Replace with your screenshot
+    category: "Web",
+    tags: ["MongoDB", "Express.js", "React", "Node.js"],
+    demoLink: "https://my-app-nine-navy.vercel.app",
+    githubLink: "https://github.com/niyati34/Arthik"
+  },
+  {
+    id: 7,
+    title: "NatureThe Flora – Environmental Awareness Web App",
+    description: "An interactive web platform educating users about flora, sustainability, and the environment using engaging UI.",
+    image: "/assets/440138667-d3734044-40e4-4b80-b1f7-2d56679fcf22.png", // Replace with your screenshot
+    category: "UI/UX",
+    tags: ["HTML", "CSS", "Bootstrap"],
+    demoLink: "#",
+    githubLink: "https://github.com/niyati34/The_Flora"
+  },
+  {
+    id: 8,
+    title: "Crowd Detection in City Buses",
+    description: "An IoT-based AI solution to detect and monitor crowd levels in public transport using sensors and Python-based microservices.",
+    image: "https://images.unsplash.com/photo-1600180758890-d54f3dd973ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", // Replace with your screenshot
+    category: "AI",
+    tags: ["IoT", "Python", "Microservices", "AI"],
+    demoLink: "#",
+    githubLink: "https://github.com/niyati34/crowd-detection"
   }
 ];
+
 
 const ProjectsSection = () => {
   const [activeCategory, setActiveCategory] = useState("All");

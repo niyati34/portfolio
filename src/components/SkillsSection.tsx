@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Progress } from "@/components/ui/progress";
 import { motion } from "framer-motion";
-import { Layers3, BrushIcon, Code2, Database, Smartphone, Users } from "lucide-react";
+import { Layers3,Brush,Cloud,UserCheck, BrushIcon, Code2, Database, Smartphone, Users } from "lucide-react";
 
 const SkillsSection = () => {
   const [hoveredSkill, setHoveredSkill] = useState<number | null>(null);
@@ -10,45 +10,45 @@ const SkillsSection = () => {
   const skills = [
     {
       name: "Front-end Development",
-      proficiency: 95,
-      description: "React, Angular, Vue.js, HTML5, CSS3, SASS",
+      proficiency: 92,
+      description: "React.js, Angular, HTML5, CSS3, SASS, JavaScript, TypeScript, Bootstrap",
       category: "development",
       icon: <Code2 className="w-6 h-6" />
     },
     {
       name: "Back-end Development",
       proficiency: 85,
-      description: "Node.js, Express, Django, Laravel, MySQL, MongoDB",
+      description: "Node.js, Express, PHP, Flask, FastAPI, .NET, MySQL, MongoDB",
       category: "development",
       icon: <Database className="w-6 h-6" />
     },
     {
       name: "UI/UX Design",
-      proficiency: 90,
-      description: "Figma, Adobe XD, Sketch, User Research, Wireframing",
+      proficiency: 95,
+      description: "Figma, Adobe XD, Wireframing, Responsive Design, Accessibility",
       category: "design",
-      icon: <BrushIcon className="w-6 h-6" />
+      icon: <Brush className="w-6 h-6" />
     },
     {
-      name: "Cloud Services",
-      proficiency: 80,
-      description: "AWS, Google Cloud, Azure, Serverless, DevOps",
+      name: "Cloud & DevOps",
+      proficiency: 75,
+      description: "Firebase, Netlify, Vercel, Heroku, AWS basics, GitHub Actions",
       category: "infrastructure",
-      icon: <Layers3 className="w-6 h-6" />
+      icon: <Cloud className="w-6 h-6" />
     },
     {
       name: "Mobile Development",
-      proficiency: 75,
-      description: "React Native, Flutter, iOS, Android",
+      proficiency: 80,
+      description: "Flutter, React Native, Android Basics",
       category: "development",
       icon: <Smartphone className="w-6 h-6" />
     },
     {
-      name: "Project Management",
-      proficiency: 85,
-      description: "Agile, Scrum, Jira, Trello, Team Leadership",
+      name: "Soft Skills & Teamwork",
+      proficiency: 90,
+      description: "Agile, Scrum, Git, GitHub, Trello, Project Collaboration",
       category: "soft-skills",
-      icon: <Users className="w-6 h-6" />
+      icon: <UserCheck className="w-6 h-6" />
     }
   ];
 

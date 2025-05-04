@@ -26,12 +26,16 @@ const HeroSection = () => {
             </div>
             
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button className="btn-gradient">
-                View My Work <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-              <Button variant="outline" className="border-purple hover:text-purple-light transition-colors">
-                Get In Touch
-              </Button>
+            <a href="#projects">
+            <Button className="btn-gradient">
+              View My Work <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+            </a>
+            <a href="#contact">
+            <Button variant="outline" className="border-purple hover:text-purple-light transition-colors">
+              Get In Touch
+            </Button>
+            </a>
             </div>
             
             <div className="pt-6 flex flex-wrap gap-6">
@@ -47,7 +51,7 @@ const HeroSection = () => {
               
               <div className="flex items-center">
                 <div className="w-10 h-10 rounded-full flex items-center justify-center bg-secondary text-accent-foreground font-bold text-lg">
-                  20+
+                  15+
                 </div>
                 <div className="ml-2">
                   <p className="text-sm text-foreground/70">Projects</p>
@@ -65,7 +69,7 @@ const HeroSection = () => {
           )}>
             <div className="w-[350px] h-[350px] rounded-full overflow-hidden border-4 border-white/20 animate-float shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                src="/assets/IMG_20231201_194648_448.jpg"
                 alt="Software Engineer"
                 className="w-full h-full object-cover"
               />
