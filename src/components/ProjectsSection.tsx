@@ -170,12 +170,20 @@ const ProjectsSection = () => {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <Button variant="outline" size="sm" className="flex items-center gap-1">
-                    <Eye className="h-4 w-4" /> Demo
-                  </Button>
-                  <Button variant="outline" size="sm" className="flex items-center gap-1">
-                    <Github className="h-4 w-4" /> Code
-                  </Button>
+                <Button variant="outline">
+                <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  <Eye size={16} />
+                  Demo
+                </a>
+              </Button>
+
+              <Button variant="outline">
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  <Github size={16} />
+                  GitHub
+                </a>
+              </Button>
+
                 </div>
               </div>
             </Card>
