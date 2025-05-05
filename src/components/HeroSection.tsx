@@ -69,7 +69,7 @@ const HeroSection = () => {
           )}>
             <div className="w-[350px] h-[350px] rounded-full overflow-hidden border-4 border-white/20 animate-float shadow-2xl">
               <img
-                src="/assets/IMG_20231201_194648_448.jpg"
+                src="/assets/ChatGPT Image May 5, 2025, 12_16_24 PM.png"
                 alt="Software Engineer"
                 className="w-full h-full object-cover"
               />
