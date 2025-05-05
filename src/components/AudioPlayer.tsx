@@ -8,7 +8,7 @@ const AudioPlayer = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   // Audio URL - replace with your own background music
-  const audioUrl = "https://cdn.pixabay.com/audio/2022/01/18/audio_d0d438fb0d.mp3";
+  const audioUrl = "/assets/deep-technology-210865.mp3";
 
   useEffect(() => {
     const audio = audioRef.current;
