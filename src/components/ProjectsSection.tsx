@@ -25,7 +25,7 @@ const projects: Project[] = [
     image: "/assets/Screenshot (828).png", // Replace with your screenshot
     category: "AI",
     tags: ["Python", "Flask", "Selenium", "GitHub Actions"],
-    demoLink: "https://caseyai-production.up.railway.app",
+    demoLink: "https://caseyai.onrender.com",
     githubLink: "https://github.com/niyati34/CaseyAi"
   },
   {
