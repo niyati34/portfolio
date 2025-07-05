@@ -50,6 +50,16 @@ const projects: Project[] = [
   },
   {
     id: 4,
+    title: "Talksy",
+    description: "Talksy is a voice-enabled AI support assistant that uses GPT-4o and RAG to deliver real-time, business-aware responses with dynamic, brand-matching UI.",
+    image: "/", // Replace with your screenshot
+    category: "AI",
+    tags: ["Python", "Flask", "Selenium", "GitHub Actions"],
+    demoLink: "https://talksy-5w72.onrender.com",
+    githubLink: "#"
+  },
+  {
+    id: 5,
     title: "Prevenzo – Road Safety & Hazard Detection App",
     description: "An Android IoT app that detects road accidents and potholes, and notifies nearby users and authorities in real time.",
     image: "/assets/440139254-28e87e60-9e79-4b5a-ba36-a254ab3c2056.png", // Replace with your screenshot
@@ -59,7 +69,7 @@ const projects: Project[] = [
     githubLink: "https://github.com/niyati34/Prevenzo"
   },
   {
-    id: 5,
+    id: 6,
     title: "Virtual Try-On System",
     description: "A computer vision app that overlays virtual clothing on users using webcam input, OpenCV, and deep learning with MediaPipe.",
     image: "/assets/440135484-206cec04-34b4-4ae4-9efb-d24c2788c510.png", // Replace with your screenshot
@@ -69,7 +79,7 @@ const projects: Project[] = [
     githubLink: "https://github.com/niyati34/virtual-dressing-room"
   },
   {
-    id: 6,
+    id: 7,
     title: "Arthik – Barter Skill Exchange Platform",
     description: "A MERN stack web app where users exchange skills instead of money, with real-time messaging and request handling features.",
     image: "/assets/Screenshot 2025-05-05 022431.png", // Replace with your screenshot
@@ -79,7 +89,7 @@ const projects: Project[] = [
     githubLink: "https://github.com/niyati34/Arthik"
   },
   {
-    id: 7,
+    id: 8,
     title: "NatureThe Flora – Environmental Awareness Web App",
     description: "An interactive web platform educating users about flora, sustainability, and the environment using engaging UI.",
     image: "/assets/440138667-d3734044-40e4-4b80-b1f7-2d56679fcf22.png", // Replace with your screenshot
@@ -89,7 +99,7 @@ const projects: Project[] = [
     githubLink: "https://github.com/niyati34/The_Flora"
   },
   {
-    id: 8,
+    id: 9,
     title: "Crowd Detection in City Buses",
     description: "An IoT-based AI solution to detect and monitor crowd levels in public transport using sensors and Python-based microservices.",
     image: "https://images.unsplash.com/photo-1600180758890-d54f3dd973ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", // Replace with your screenshot
