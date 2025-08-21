@@ -189,7 +189,7 @@ const projects: Project[] = [
     title: "Smart Projects Manager (WordPress Plugin)",
     description:
       "A modern WordPress plugin for project management with a React admin interface, secure REST API, and custom database integration.",
-    image: "https://niyati34.github.io/assets/smart-manager.png", // replace with screenshot
+    image: "https://niyati34.github.io/assets/smart-manager.png",
     category: "Backend",
     tags: ["WordPress", "PHP", "React", "REST API"],
     demoLink: "#",
